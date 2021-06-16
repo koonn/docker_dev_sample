@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-x = np.range(0, 100, 0.5)
+x = np.arange(0, 100, 0.5)
 
 hz = 5.
 y = np.sin(2.0 * np.pi * (x * hz) / 100)
